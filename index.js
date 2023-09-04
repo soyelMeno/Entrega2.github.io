@@ -24,11 +24,6 @@ function addToDo(event){
     event.preventDefault()
 
     let datos = JSON.parse(localStorage.getItem('elements'))
-
- 
-
- 
-
     if(datos == null){
 
  
@@ -130,14 +125,8 @@ function imprimir(){
  
 
         </div>
-
- 
-
         `
-
- 
-
-    }).join('<hr />')
+    })
 
  
 
